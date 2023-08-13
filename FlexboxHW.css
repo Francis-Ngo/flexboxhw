@@ -1,0 +1,64 @@
+
+
+
+#title {
+    display: flex;
+    justify-content:space-around;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+#flexdiv {
+    display:flex;
+    justify-content: left;
+    margin-top: 20px;
+}
+
+
+
+#services {
+    display:flex;
+    flex-direction: column;
+}
+
+#clients {
+    display:flex;
+    flex-direction:column;
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    background-color:tomato;
+
+}
+
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    background-color: tomato;
+}
+
+#imghell {
+display: flex;
+}
+
+button {
+    padding: 20px;
+    max-width: 200px;
+}
+
+
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Business Site</title>
+    <link href="./FlexboxHW.css" rel="stylesheet"/>
+</head>
+    <body>
+        <h1 id="title">My Lawn Mowing Business</h1>
+        <nav id="navbar">
+            <div class="btn">Home</div>
+            <div class="btn">About</div>
+            <div class="btn">Contact</div>
+            <div class="btn">Fake News</div>
+        </nav>
+        <section>
+            <img class="profile-pic" src="./profile_pic.jpg" />
+            <p class="about-me-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium ex enim nesciunt veritatis? Dolores, vitae. Officiis, ratione nemo temporibus tenetur quos sit officia suscipit dolore soluta! Minima facilis quidem tenetur?</p>
+        </section>
+    <div id="flexdiv">
+        <div id="service">
+            <h3>Services</h3>
+            <ol>
+                <li>Lawn Mowing</li>
+                <li>Landscaping</li>
+                <li>Bonsai Trimming</li>
+                <li>Lawn Gnome Catching</li>
+                <li>Cat Herding</li>
+                <li>And MORE!!!</li>
+            </ol>
+        </div>
+        <div id="client">
+            <h3>Notable Clients</h3>
+            <ul>
+                <li>Bill and Melinda Gates Foundation</li>
+                <li>SpaceX</li>
+                <li>The Space Jam Basketball Team</li>
+                <li>The Prancing Pony</li>
+                <li>Bill Nye</li>
+            </ul>
+        </div>
+    </div>
+    <div id="imghell">
+    <img src="./profile_pic.jpg"></img>
+    <img src="./profile_pic.jpg"></img>
+    <img src="./profile_pic.jpg"></img>
+    <img src="./profile_pic.jpg"></img>
+    <img src="./profile_pic.jpg"></img>
+    <img src="./profile_pic.jpg"></img>
+    </div>
+    <form id="question-form" action="submit_question.php" method="post">
+        <h2>Submit a Question</h2>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="question">Question:</label>
+        <textarea id="question" name="question" rows="4" required></textarea><br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+    <hr />
+        <p><a href="www.google.com" target="_blank">No task is too big or small.</a> We have done work in the Quantum Realm</p>
+    </body>
+</html>
